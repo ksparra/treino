@@ -1,0 +1,7 @@
+nome = input('digite uma frase :').strip().upper()
+num = nome.count('A')
+num2 = nome.find('A')
+num3 = nome.rfind('A')
+print(f'a letra a aparece {num} vezes')
+print(f'a letra a aparece a primeira vez na posição {num2+1}')
+print(f'a letra a aparece pela ultima vez na posição {num3+1}')
